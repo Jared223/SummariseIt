@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summarise It!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Adjusted file path -->
+</head>
+<body>
+    <header>
+        <h1>Summarise It!</h1>
+        <p>Welcome to Summarise It! Paste a link to a PDF document or an article/wikipedia page and get a summarised version in an instant!</p>
+    </header>
+    <main>
+        <form id="summarize-form">
+            <label for="url-input">Enter the URL:</label>
+            <input id="url-input" type="text" name="url" placeholder="Paste your link here">
+            <button type="submit">Summarise!</button>
+        </form>
+        <div id="loader" class="hidden">Loading...</div>
+        <div id="summary-output"></div>
+        <div id="error-message" class="hidden"></div>
+    </main>
+    <script src="script.js"></script> <!-- Adjusted file path -->
+</body>
+</html>
